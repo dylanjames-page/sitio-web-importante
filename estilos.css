@@ -64,3 +64,23 @@ section {
     margin-bottom: 25px;
     border-radius: 8px;
 }
+
+/* ====== FORZAR VISIBILIDAD DEL CONTENIDO ====== */
+
+main {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+}
+
+main section {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+}
+
+main p, 
+main h2 {
+    display: block !important;
+    color: #222222 !important;
+}
